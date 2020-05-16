@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://kit.fontawesome.com/2bb0468abd.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css " href="/static/polls/css/styles/succeed.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <a onclick="pop()" class="btn">Show Box</a>
+
+    <div id="box">
+        <span>
+            <i class="fas fa-check"></i>
+        </span>
+        <h1>Talebinizi Aldık!</h1>
+        <h1>48 Saat İçinde Size Geri Dönüş Sağlayacağız.</h1>
+        <a onclick="pop()" class="close">Close</a>
+    </div>
+    <script type="text/javascript">
+        var c = 0;
+
+        function pop() {
+            if (c == 0) {
+                document.getElementById("box").style.display = "block";
+                c = 1;
+            } else {
+                document.getElementById("box").style.display = "none";
+                c = 0;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://kit.fontawesome.com/2bb0468abd.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    rel="stylesheet">
+<link rel="stylesheet" type="text/css " href="/static/polls/css/styles/index2.css">
+<link rel="stylesheet" type="text/css " href="/static/polls/css/styles/navbar.css">
+<link rel="stylesheet" type="text/css " href="/static/polls/css/styles/footer.css">
+<link rel="stylesheet" type="text/css " href="/static/polls/css/styles/service.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+<script src="/static/polls/js/index2.js"></script>
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+
+<head>
+    <meta charset=" UTF-8 ">
+    <meta name="viewport " content="width=device-width, initial-scale=1.0 ">
+    <title>AloSigortacım || Anasayfa </title>
+</head>
+
+<body>
+
+    <nav >
+        <div class="logo">
+            <img src="/static/polls/images/firmlogos/aksigorta.png">
+        </div>
+        <div class="nav-wrapper">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse_target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse_target">
+                <a href="#" class="navbar-brand">
+                    
+                </a>
+                <ul class="navbar-nav right hide-on-med-and-down">
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-item dropdown menu-area">
+                        <a class="nav-link dropdown-toggle" href="#" id="mega-two" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Sigortalarımız
+                        </a>
+                        <div class="dropdown-menu mega-area" aria-labelledby="mega-two">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-3 border-right">
+                                    <h5>
+                                        Motorlu Taşıtlarınız
+                                        <i class="fas fa-tachometer-alt"></i>
+                                    </h5>
+                                    <a href="#" class="dropdown-item" id="droplink">Trafik</a>
+                                    <a href="#" class="dropdown-item" id="droplink">Kasko</a>
+                                    <a href="#" class="dropdown-item" id="droplink">Ferdi Kaza</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 border-right">
+                                    <h5>
+                                        Bina<i class="fas fa-home"></i>
+                                    </h5>
+                                    <a href="#" class="dropdown-item" id="droplink">İş Yeri</a>
+                                    <a href="#" class="dropdown-item" id="droplink">Konut</a>
+                                    <div class="dropdown-divider border-bottom"></div>
+                                    <h5>
+                                        Zorunlu Deprem <img class="imag" src="/static/polls/images/dask.png" alt="">
+                                    </h5>
+                                    <a href="#" class="dropdown-item" id="droplink">DASK </a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 border-right">
+                                    <h5>
+                                        Kendinizi ve Ailenizi Koruyun
+                                        <i class="fas fa-heartbeat"></i>
+                                    </h5>
+                                    <a href="#" class="dropdown-item" id="droplink">Özel Sağlık</a>
+                                    <a href="#" class="dropdown-item" id="droplink">Tamamlayıcı Sağlık</a>
+                                    <a href="#" class="dropdown-item" id="droplink">Ferdi Kaza Sigortası</a>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <h5>
+                                        Mesleki ve Ticari<i class="fas fa-briefcase"></i>
+                                    </h5>
+                                    <a href="#" class="dropdown-item" id="droplink">Nakliyat<i class="fas fa-truck"></i>
+                                        <a href="#" class="dropdown-item" id="droplink">Tarsim<i
+                                                class="fas fa-tractor"></i></a>
+                                        <a href="#" class="dropdown-item" id="droplink">Yat<i
+                                                class="fas fa-ship"></i></a>
+                                        <a href="#" class="dropdown-item" id="droplink">Seyahat<i
+                                                class="fas fa-plane-departure"></i></a>
+                                        <a href="#" class="dropdown-item" id="droplink">Sorumluluk<i
+                                                class="fas fa-user-friends"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Teklif İste</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown07">
+                            <a class="dropdown-item" href="#"><i class="fas fa-phone-volume"></i>Telefon</a>
+                            <a class="dropdown-item" href="#"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+                            <a class="dropdown-item" href="/emailoffer"><i class="far fa-envelope"></i>Email</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">Hakkımızda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/FAQ">SSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ContactUs">İletişim</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="header-image ">
+        <div class="container ">
+            <h1><span>alo sİgortacım</span></h1>
+            <span class="des ">Sİgorta // Broker Hİzmetlerİ</span>
+        </div>
+    </div>
+
+
+    <!-- ----Service2--- -->
+    <section class="services">
+        <div class="container">
+            <div class="box ">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Service One</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolor hic et autem fugit
+                        saepe,
+                        libero
+                        inventore aliquam possimus necessitatibus placeat ex veniam doloremque ad laborum minima
+                        voluptate.
+                        Laborum, in?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Service Two</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolor hic et autem fugit
+                        saepe,
+                        libero
+                        inventore aliquam possimus necessitatibus placeat ex veniam doloremque ad laborum minima
+                        voluptate.
+                        Laborum, in?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Service Three</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolor hic et autem fugit
+                        saepe,
+                        libero
+                        inventore aliquam possimus necessitatibus placeat ex veniam doloremque ad laborum minima
+                        voluptate.
+                        Laborum, in?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <h2>04</h2>
+                    <h3>Service Four</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolor hic et autem fugit
+                        saepe,
+                        libero
+                        inventore aliquam possimus necessitatibus placeat ex veniam doloremque ad laborum minima
+                        voluptate.
+                        Laborum, in?</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonies -->
+    <div class="testimonial-section ">
+        <div class="inner-width ">
+            <h1>Sizden Gelenler</h1>
+            <div class="border "></div>
+            <div class="slides owl-carousel ">
+                <div class="testimonial ">
+                    <div class="test-info ">
+                        <img class="test-pic " src="/static/polls/images/firmlogos/aksigorta.png " alt=" ">
+                        <div class="test-name ">
+                            <span>Client1</span> @client1
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis consequatur ullam, id
+                        illum molestiae culpa sint voluptate unde? Fuga dolor possimus optio enim architecto suscipit,
+                        sit similique est! Libero.
+
+                    </p>
+                </div>
+
+                <div class="testimonial ">
+                    <div class="test-info ">
+                        <img class="test-pic " src="/static/polls/images/firmlogos/anadolusigorta.png " alt=" ">
+                        <div class="test-name ">
+                            <span>Client2</span> @client2
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis consequatur ullam, id
+                        illum molestiae culpa sint voluptate unde? Fuga dolor possimus optio enim architecto suscipit,
+                        sit similique est! Libero.
+
+                    </p>
+                </div>
+
+                <div class="testimonial ">
+                    <div class="test-info ">
+                        <img class="test-pic " src="/static/polls/images/firmlogos/axa.png " alt=" ">
+                        <div class="test-name ">
+                            <span>Client3</span> @client3
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis consequatur
+                        ullam, id
+                        illum molestiae culpa sint voluptate unde? Fuga dolor possimus optio enim architecto suscipit,
+                        sit similique est! Libero.
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----Service1-- -->
+
+    <!-- <div class="services-section">
+        <div class="inner-width">
+            <h1 class="section-title">Hİzmetlerİmİz</h1>
+            <div class="border"></div>
+            <div class="services-container">
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="service-title">Web Designs</div>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="service-title">Web Development</div>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-brush"></i>
+                    </div>
+                    <div class="service-title">Responsive Designs</div>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-object-ungroup"></i>
+                    </div>
+                    <div class="service-title">Edit Sections</div>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="service-title">Databases</div>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                    </div>
+                </div>
+
+                <div class="service-box">
+                    <div class="service-icon">
+                        <i class="fab fa-android"></i>
+                    </div>
+                    <div class="service-title">Android</div>
+                    <div class="service-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et eaque ratione rem porro, nihil.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 footer-info">
+                        <h3>Website Name</h3>
+                        <p>Paragraph</p>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><a href="/about">Hakkımızda</a></li>
+                            <li><a href="#">Anlaşmalı Şirketler</a></li>
+                            <li><a href="#">Teklif İste</a></li>
+                            <li><a href="/FAQ">Sıkça Sorulan Sorular</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h4>Contact US</h4>
+                        <p>
+                            24 Block D <br> Çankaya,İzmir <br> Türkiye <br>
+                            <strong>Phone:</strong>+90 5337653618
+                            <strong>Email:</strong>info@AloSigortaci.com
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                        <h4>Our Newsletter</h4>
+                        <p>Paragraph</p>
+                        <form action="" method="post">
+                            <input type="email" name="email"><input type="submit" value="Subcribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright<strong>ALO SİGORTACI</strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by AloSigortaci A.Ş.
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript ">
+        $('.owl-carousel').owlCarousel({
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                680: {
+                    items: 2
+                },
+                960: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+
+                if ($(window).scrollTop() > 300) {
+                    $('nav').addClass('red');
+                } else {
+                    $('nav').removeClass('red');
+                }
+
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

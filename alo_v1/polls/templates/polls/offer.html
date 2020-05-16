@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css " href="/static/polls/css/styles/index.css">
+
+
+<head>
+    <title>AloSigortacım || Teklif İste</title>
+</head>
+
+<body>
+    <!-- ========================
+   HEADER
+======================== -->
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><span>ALO</span>Sigortacım</a>
+            </div>
+            <div class="trigger-main">
+                <a href="javascript:void(0);" class="ham-burger">
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="/index" class="active">Anasayfa</a></li>
+                    <li><a href="/about">Hakkımızda</a></li>
+                    <li><a href="#insurance">Sigortalarımız</a></li>
+                    <li><a href="#offers">Teklif İste</a></li>
+                    <!-- <li><a href="#team">Team</a></li> -->
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- ========================
+   HOME-GAP
+======================== -->
+    <section class="askOffer-home-gap">
+        <div class="container">
+            <!-- <h2 class="title">ALO SİGORTACIM</h2> -->
+            <h3>Cep Yakmayan Teklifi Kendiniz Bulun</h2>
+                <div class="home-gap-content">
+                    <div class="card"></div>
+                </div>
+        </div>
+    </section>
+    <!-- ========================
+HOME-CONTACT_US
+======================== -->
+    <section class="askOffer">
+        <div class="container">
+            <div class="askOffer-text">
+                <h1>Alo Sigortacım</h1>
+            </div>
+        </div>
+    </section>
+    <!-- ========================
+PHONE OFFER
+======================== -->
+    <section class="phone">
+        <div class="container">
+            <h2 class="title">Telefon</h2>
+            <div class="askOffer-content">
+                <div class="card">
+                    <div class="box">
+                        <div class="icon">
+                            <span class="fas fa-mobile-alt"></span>
+                        </div>
+                        <h3>*Aramadan Önce Lütfen Aşağıdaki Kutucuktan Teklif Almak İstediğiniz Sigorta Türünü Seçerek Gerekli Evraklarınızı Hazırlayınız</h3>
+                        <div class="select-box">
+                            <div class="options-container">
+                                <div class="option" id="kasko">
+                                    <input type="radio" class="radio" id="kasko" name="category" />
+                                    <label for="kasko">Kasko</label>
+                                </div>
+
+                                <div class="option" id="trafik">
+                                    <input type="radio" class="radio" id="trafik" name="category" />
+                                    <label for="trafik">Trafik Sigortası</label>
+                                </div>
+                                <!-- <div class="option">
+                                    <input type="radio" class="radio" id="osaglik" name="category" />
+                                    <label for="osaglik">Özel Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="tsaglik" name="category" />
+                                    <label for="tsaglik">Tamamlayıcı Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="ysaglik" name="category" />
+                                    <label for="ysaglik">Yabancı Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="fkaza" name="category" />
+                                    <label for="fkaza">Ferdi Kaza Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="isyeri" name="category" />
+                                    <label for="isyeri">İşyeri Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="konut" name="category" />
+                                    <label for="konut">Konut Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="dask" name="category" />
+                                    <label for="dask">DASK</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="tarsim" name="category" />
+                                    <label for="tarsim">TAR-SİM</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="sorumluluk" name="category" />
+                                    <label for="sorumluluk">Mesleki Sorumluluk Sigortaları</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="yat" name="category" />
+                                    <label for="yat">Yat Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="nakliyat" name="category" />
+                                    <label for="nakliyat">Nakliyat Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="hayat" name="category" />
+                                    <label for="hayat">Birikimli Hayat Sigortaları</label>
+                                </div> -->
+                            </div>
+
+                            <div class="selected">
+                                Poliçe Türünü Seçiniz
+                            </div>
+
+                            <div class="search-box">
+                                <input type="text" placeholder="Buraya Yazın..." />
+                            </div>
+                        </div>
+                        <div class="selectbox-content">
+                            <div id="kasko-content-box" class="hide">
+                                <blockquote class="blockquote">
+                                    <p class="blockquote_text">
+                                        Kasko İçin Gerekli Bilgiler ve Evraklar:
+                                    </p>
+                                    <div class="blockquote_tag">
+                                        <ol>
+                                            <li>Nüfus Cüzdanı</li>
+                                            <li>Ehliyet</li>
+                                            <li>Ruhsat</li>
+                                            <p>Tel: 0 (533) 765 3618</p>
+                                        </ol>
+                                    </div>
+                                </blockquote>
+                            </div>
+                            <div id="trafik-content-box" class="hide">
+                                <blockquote class="blockquote">
+                                    <p class="blockquote_text">
+                                        Trafik Sigortası İçin Gerekli Bilgiler ve Evraklar:
+                                    </p>
+                                    <div class="blockquote_tag">
+                                        <ol>
+                                            <li>Nüfus Cüzdanı</li>
+                                            <li>Ehliyet</li>
+                                            <li>Ruhsat</li>
+                                            <p>Tel: 0 (533) 765 3618</p>
+                                        </ol>
+                                    </div>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================
+EMAIL OFFER
+======================== -->
+    <section class="email">
+        <div class="container">
+            <h2 class="title">EMAIL</h2>
+            <div class="askOffer-content">
+                <div class="card">
+                    <div class="box">
+                        <span class="fas fa-mobile-alt"></span>
+                        <div class="icon">
+                        </div>
+                        <h3>*Email ile Teklif Almak İçin Lütfen Aşağıdaki Alanları Doldurunuz</h3>
+                        <div class="select-box">
+                            <div class="options-container">
+                                <div class="option" id="Ekasko">
+                                    <input type="radio" class="radio" id="Ekasko" name="category" />
+                                    <label for="kasko">Kasko</label>
+                                </div>
+
+                                <div class="option" id="Etrafik">
+                                    <input type="radio" class="radio" id="Etrafik" name="category" />
+                                    <label for="trafik">Trafik Sigortası</label>
+                                </div>
+                                <div class="option" id="Eosaglik">
+                                    <input type="radio" class="radio" id="Eosaglik" name="category" />
+                                    <label for="osaglik">Özel Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Etsaglik">
+                                    <input type="radio" class="radio" id="Etsaglik" name="category" />
+                                    <label for="tsaglik">Tamamlayıcı Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Eysaglik">
+                                    <input type="radio" class="radio" id="Eysaglik" name="category" />
+                                    <label for="ysaglik">Yabancı Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Efkaza">
+                                    <input type="radio" class="radio" id="Efkaza" name="category" />
+                                    <label for="fkaza">Ferdi Kaza Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Eisyeri">
+                                    <input type="radio" class="radio" id="Eisyeri" name="category" />
+                                    <label for="isyeri">İşyeri Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Ekonut">
+                                    <input type="radio" class="radio" id="Ekonut" name="category" />
+                                    <label for="konut">Konut Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Edask">
+                                    <input type="radio" class="radio" id="Edask" name="category" />
+                                    <label for="dask">DASK</label>
+                                </div>
+
+                                <div class="option" id="Etarsim">
+                                    <input type="radio" class="radio" id="Etarsim" name="category" />
+                                    <label for="tarsim">TAR-SİM</label>
+                                </div>
+
+                                <div class="option" id="Esorumluluk">
+                                    <input type="radio" class="radio" id="Esorumluluk" name="category" />
+                                    <label for="sorumluluk">Mesleki Sorumluluk Sigortaları</label>
+                                </div>
+
+                                <div class="option" id="Eyat">
+                                    <input type="radio" class="radio" id="Eyat" name="category" />
+                                    <label for="yat">Yat Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Enakliyat">
+                                    <input type="radio" class="radio" id="Enakliyat" name="category" />
+                                    <label for="nakliyat">Nakliyat Sigortası</label>
+                                </div>
+
+                                <div class="option" id="Ehayat">
+                                    <input type="radio" class="radio" id="Ehayat" name="category" />
+                                    <label for="hayat">Birikimli Hayat Sigortaları</label>
+                                </div>
+                            </div>
+
+                            <div class="selected">
+                                Poliçe Türünü Seçiniz
+                            </div>
+
+                            <div class="search-box">
+                                <input type="text" placeholder="Buraya Yazın..." />
+                            </div>
+                        </div>
+                        <div class="selectbox-content">
+                            <div id="error"></div>
+                            <form action="/offer" method="GET" id="Etrafik-content-box" class="hide">
+                                <div class="field">
+                                    <label for="name">İsim Soyisim</label>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="field">
+                                    <label for="email">E-mail Adresi</label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                                <div class="field">
+                                    <label for="phone">Telefon Numarası</label>
+                                    <input type="phone" name="phone" id="phone" required>
+                                </div>
+                                <div class="field">
+                                    <label for="tc">TC Kimlik No</label>
+                                    <input type="text" name="tc" id="tc">
+                                </div>
+                                <div class="field">
+                                    <label for="plaka">Araç Plakası</label>
+                                    <input type="text" name="plaka" id="plaka">
+                                </div>
+                                <div class="field">
+                                    <label for="sasi">Motor Şasi No</label>
+                                    <input type="text" name="sasi" id="sasi">
+                                </div>
+
+                            </form>
+                            <form action="/offer" method="GET" id="Eosaglik-content-box" class="hide">
+                                <div class="field">
+                                    <label for="name">İsim Soyisim</label><br>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="field">
+                                    <label for="email">E-mail Adresi</label><br>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                                <div class="field">
+                                    <label for="phone">Telefon Numarası</label><br>
+                                    <input type="phone" name="phone" id="phone" required>
+                                </div>
+                                <div class="field">
+                                    <label for="tc">TC Kimlik No</label><br>
+                                    <input type="text" name="tc" id="tc">
+                                </div>
+                                <div class="field">
+                                    <label for="hastalik">Sağlık Sorunlarınızı Yazınız (Varsa)</label><br>
+                                    <textarea placeholder="Buraya Yazınız" rows="4" cols="60"></textarea>
+                                </div>
+                                <div class="field">
+                                    <label for="sasi">Daha Önce Herhangi Bir Şirketten Sağlık Sigortanız Var
+                                        Mıydı?</label><br>
+                                    <input type="radio" id="evet1" name="answer" value="evet1">
+                                    <label for="evet1">Evet</label><br>
+                                    <input type="radio" id="hayir1" name="answer" value="hayir1">
+                                    <label for="hayir1">Hayır</label><br>
+                                </div>
+
+                            </form>
+                            <form action="/offer" method="GET" id="Edask-content-box" class="hide">
+                                <div class="field">
+                                    <label for="name">İsim Soyisim</label>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="field">
+                                    <label for="email">E-mail Adresi</label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                                <div class="field">
+                                    <label for="phone">Telefon Numarası</label>
+                                    <input type="phone" name="phone" id="phone" required>
+                                </div>
+                                <div class="field">
+                                    <label for="tc">TC Kimlik No</label>
+                                    <input type="text" name="tc" id="tc" required>
+                                </div>
+                                <div class="field">
+                                    <label for="binayasi">Bina Yaşı</label>
+                                    <input type="text" name="binayasi" id="binayasi" required>
+                                </div>
+                                <div class="field">
+                                    <label for="adres">Adres</label>
+                                    <input type="text" name="adres" id="adres" required>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================
+WHATSAPP OFFER
+======================== -->
+    <section class="whatsapp">
+        <div class="container">
+            <h2 class="title">WHATSAPP</h2>
+            <div class="askOffer-content">
+                <div class="card">
+                    <div class="box">
+                        <div class="icon">
+                            <span class="fas fa-mobile-alt"></span>
+                        </div>
+                        <h3>*Mesajını Göndermeden Önce Lütfen Aşağıdaki Kutucuktan Teklif Almak İstediğiniz Sigorta Türünü Seçerek Gerekli Evrakları Bize Gönderiniz</h3>
+                        <div class="select-box">
+                            <div class="options-container">
+                                <div class="option">
+                                    <input type="radio" class="radio visible" id="kasko" name="category" />
+                                    <label for="kasko">Kasko</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="trafik" name="category" />
+                                    <label for="trafik">Trafik Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="osaglik" name="category" />
+                                    <label for="osaglik">Özel Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="tsaglik" name="category" />
+                                    <label for="tsaglik">Tamamlayıcı Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="ysaglik" name="category" />
+                                    <label for="ysaglik">Yabancı Sağlık Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="fkaza" name="category" />
+                                    <label for="fkaza">Ferdi Kaza Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="isyeri" name="category" />
+                                    <label for="isyeri">İşyeri Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="konut" name="category" />
+                                    <label for="konut">Konut Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="dask" name="category" />
+                                    <label for="dask">DASK</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="tarsim" name="category" />
+                                    <label for="tarsim">TAR-SİM</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="sorumluluk" name="category" />
+                                    <label for="sorumluluk">Mesleki Sorumluluk Sigortaları</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="yat" name="category" />
+                                    <label for="yat">Yat Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="nakliyat" name="category" />
+                                    <label for="nakliyat">Nakliyat Sigortası</label>
+                                </div>
+
+                                <div class="option">
+                                    <input type="radio" class="radio" id="hayat" name="category" />
+                                    <label for="hayat">Birikimli ve Hayat Sigortaları</label>
+                                </div>
+                            </div>
+
+                            <div class="selected">
+                                Poliçe Türünü Seçiniz
+                            </div>
+
+                            <div class="search-box">
+                                <input type="text" placeholder="Buraya Yazın..." />
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://api.whatsapp.com/send?phone=905337653618&text=Poliçe%20teklifi%20almak%20istiyorum.">Mesajlaşmaya
+                        başla</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================
+FOOTER
+======================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="box">
+                    <div class="icon">
+                        <div class="website-name">
+
+                            <h4>ALO SİGORTACIM</h4>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere impedit molestiae velit sit nihil doloribus quod?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <div class="footer-links">
+                            <h4>Diğer Bağlantılar</h4>
+                            <ul>
+                                <li><a href="/about">Hakkımızda</a></li>
+                                <li><a href="#">Anlaşmalı Şirketler</a></li>
+                                <li><a href="/offers">Teklif İste</a></li>
+                                <li><a href="/FAQ">Sıkça Sorulan Sorular</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <div class="footer-iletisim">
+                            <h4>İletişim Bilgileri</h4>
+                            <p>
+                                24 Block D <br> Çankaya,İzmir <br> Türkiye <br>
+                                <strong>Phone:</strong>+90 5337653618
+                                <strong>Email:</strong>info@AloSigortacim.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <div class="footer-newsletter">
+                            <h4>E-Bülten</h4>
+                            <p>Paragraph</p>
+                            <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Abone Ol">
+                            </form>
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href=""><span class="fab fa-facebook"></span></a></li>
+                                <li><a href=""><span class="fab fa-linkedin"></span></a></li>
+                                <li><a href=""><span class="fab fa-skype"></span></a></li>
+                                <li><a href=""><span class="fab fa-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-container">
+                <div class="copyright">
+                    &copy;Copyright<strong>ALO SİGORTACIM</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by AloSigortacım A.Ş.
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- ========================
+SCRIPT
+======================== -->
+    <script type="text/javascript" src="/static/polls/js/selectbox.js"></script>
+    <!-- <script defer src="/static/polls/js/multipleSelectbox.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var bottom = $("header").outerHeight();
+            var header = $("header").offset().top + bottom;
+
+            $(window).scroll(function() {
+                    if ($(window).width() > 991) {
+                        if ($(window).scrollTop() >= header) {
+                            $("header").addClass("sticky")
+                        } else {
+                            $("header").removeClass("sticky")
+                        }
+                    }
+                })
+                //navbar active link
+            $(".navbar ul li a").click(function() {
+                $(".navbar ul li a").removeClass("active")
+                $(this).addClass("active");
+            })
+            $(".ham-burger").click(function() {
+                $(this).toggleClass("active")
+                $(".navbar").toggleClass("open");
+            })
+            $(document).ready(function() {
+                $(".container .askOffer-content .card .box .options-container").on("click", "div", function() {
+                    var tabsId = $(this).attr("id");
+                    $("#" + tabsId + "-content-box").addClass("visible").siblings().removeClass("visible");
+                })
+            })
+        })
+    </script>
+</body>
+
+</html>

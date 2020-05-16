@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <link rel="stylesheet" type="text/css " href="/static/polls/css/styles/ContactUs.css"> -->
+<link rel="stylesheet" type="text/css " href="/static/polls/css/styles/index.css">
+
+<head>
+    <title>Alo Sigortacım | Hakkımızda</title>
+</head>
+
+<body>
+    <!-- ========================
+   HEADER
+======================== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#"><span>ALO</span>Sigortacım</a>
+            </div>
+            <div class="trigger-main">
+                <a href="javascript:void(0);" class="ham-burger">
+                    <span></span>
+                    <span></span>
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="/index" class="active">Anasayfa</a></li>
+                    <li><a href="#about">Hakkımızda</a></li>
+                    <li><a href="#insurance">Sigortalarımız</a></li>
+                    <li><a href="#offers">Teklif İste</a></li>
+                    <!-- <li><a href="#team">Team</a></li> -->
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="/ContactUs">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- ========================
+   ABOUT
+======================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="title">ALO SİGORTACIM'I TANIYIN</h2>
+            <div class="about-content">
+                <div class="img">
+                    <img src="/static/polls/images/YilmazErten.jpg" alt="me">
+                </div>
+                <div class="description">
+                    <h4>Kurucumuz -Yılmaz Erten</h4>
+                    <h5>34 YILLIK TECRÜBE</h5>
+                    <p>
+                        Sigortacılık hayatına 1986 yılında, merkezi İzmir’de bulunan bir sigorta organizasyon şirketi olan Ortin A.Ş. ile Anadolu Sigorta'nın hayat sigortasını satarak başladı. 1988 yılında hayat sigortası ile beraber elementer branşı da alarak 1991 yılına kadar
+                        sigortacılık faaiyetlerine Fethiye’de devam etti. 1991-2001 yılları arasında sigortacılık serüvenine Antalya’da acente olarak devam etti. Daha sonra bir sigorta kuruluşunun <span>
+                            Antalya Bölge Müdürlüğü</span> görevini üstlendi. İlerleyen süreçte bir broker/danışmanlık şirketinin Antalya risk yönetim danışmanlığını yaptı. Şu anda aktif olarak, merkezi İzmir'de, 20 den fazla acenteliği olan bir şirketle
+                        iş ortaklığı yapmakta. Hayatı boyunca çeşitli girişimlerde bulunmaktan hiç bir zaman geri durmayan Erten, bugüne dek sürdürdüğü faaliyetlerine bundan sonra Alosigortacım olarak devam etmektedir.
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================
+ FOOTER
+======================== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="box">
+                    <div class="icon">
+                        <div class="website-name">
+
+                            <h4>ALO SİGORTACIM</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, assumenda eum alias tempore rem adipisci autem libero quas exercitationem magni vero eaque nobis vitae perferendis quasi aliquid minus harum animi?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <div class="footer-links">
+                            <h4>Diğer Bağlantılar</h4>
+                            <ul>
+                                <li><a href="/about">Hakkımızda</a></li>
+                                <li><a href="#">Anlaşmalı Şirketler</a></li>
+                                <li><a href="/offers">Teklif İste</a></li>
+                                <li><a href="/FAQ">Sıkça Sorulan Sorular</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <h4>İletişim Bilgileri</h4>
+                        <p>
+                            24 Block D <br> Çankaya,İzmir <br> Türkiye <br>
+                            <strong>Phone:</strong>+90 5337653618
+                            <strong>Email:</strong>info@AloSigortacim.com
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <div class="footer-newsletter">
+                            <h4>E-Bülten</h4>
+                            <p>Paragraph</p>
+                            <form action="" method="post">
+                                <input type="email" name="email"><input type="submit" value="Abone Ol">
+                            </form>
+                        </div>
+                        <!-- <div class="social-links">
+                            <ul>
+                                <li><a href=""><span class="fab fa-facebook"></span></a></li>
+                                <li><a href=""><span class="fab fa-linkedin"></span></a></li>
+                                <li><a href=""><span class="fab fa-skype"></span></a></li>
+                                <li><a href=""><span class="fab fa-instagram"></span></a></li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-container">
+                <div class="copyright">
+                    &copy;Copyright<strong>ALO SİGORTACIM</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by AloSigortacım A.Ş.
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var bottom = $("header").outerHeight();
+            var header = $("header").offset().top + bottom;
+
+            $(window).scroll(function() {
+                    if ($(window).width() > 991) {
+                        if ($(window).scrollTop() >= header) {
+                            $("header").addClass("sticky")
+                        } else {
+                            $("header").removeClass("sticky")
+                        }
+                    }
+                })
+                //navbar active link
+            $(".navbar ul li a").click(function() {
+                $(".navbar ul li a").removeClass("active")
+                $(this).addClass("active");
+            })
+            $(".ham-burger").click(function() {
+                $(this).toggleClass("active")
+                $(".navbar").toggleClass("open");
+            })
+        })
+    </script>
+</body>
+
+</html>

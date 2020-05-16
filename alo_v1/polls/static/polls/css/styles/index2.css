@@ -1,0 +1,240 @@
+h1 {
+    font-family: 'Roboto Slab', cursive;
+    color: green;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 30px;
+    font: bold;
+}
+
+body {
+    background-image: url("/static/polls/images/family5.jpg");
+    background-repeat: no-repeat center;
+    background-position: contain;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header */
+
+/* .jumbotron {
+    /* background-image: url("C:/Users/z003vdbv/Desktop/BeginnerCode/Node.js/Projects/alosigortaci_v1/lib/family1.jpg");
+    background-repeat: no-repeat center;
+    background-size: 100%; 
+} */
+
+.header-image {
+    font-family: sans-serif;
+    background: transparent;
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+
+.header-image .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.header-image .container h1 {
+    font-size: 72px;
+    letter-spacing: 0.2em;
+    color: white;
+}
+
+.header-image .container h1 span {
+    border: 10px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.des {
+    margin: 20px;
+    display: block;
+    font-size: 26px;
+    text-shadow: 0 0 10px black;
+}
+
+
+/* Testiomny Section */
+
+.testimonial-section {
+    background: #3498db;
+    padding: 40px 0;
+}
+
+.inner-width {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.testimonial-section h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+}
+
+.border {
+    width: 100px;
+    height: 3px;
+    background: #333;
+    margin: 40px auto;
+}
+
+.testimonial {
+    background: #f1f1f1;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.test-info {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.test-pic {
+    width: 50px !important;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.test-name span {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3498db;
+}
+
+.testimonial p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+/* Navbar */
+
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+nav.black {
+    background: rgba(0, 0, 0, .8);
+    height: 80px;
+    padding: 10px 50px;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo img {
+    height: 80px;
+    transition: .5s;
+}
+
+nav.black .logo img {
+    height: 60px;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    line-height: 10px;
+    color: #262626;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+    font-family: 'Gotu', sans-serif;
+}
+
+nav.black ul li a {
+    color: #fff;
+    line-height: 10px;
+}
+
+
+
+.navbar-nav .nav-link:hover {
+    color: #fff;
+    background: #f00;
+    display: inline-block;
+}
+@media screen and (max-width: 1024px) {
+    .collapse {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .collapse {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background: linear-gradient(to right, rgb(0, 70, 127), rgb(165, 204, 130));
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-link li {
+        opacity: 0;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+/* @media screen and (max-width: 960px){
+    .navbar a:not(:first-child), .dropdown{
+        display: none;
+    }
+} */
+

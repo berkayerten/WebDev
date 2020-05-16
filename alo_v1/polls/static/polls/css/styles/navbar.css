@@ -1,0 +1,246 @@
+/* .fas,
+.fab,
+.far {
+    padding: 15px;
+    color: teal;
+} */
+
+
+/* =======================================
+NAVBAR
+======================================= */
+
+
+/* header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: #8d4d4d;
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+header.sticky {
+    position: fixed;
+    background-color: #222222;
+    animation: header .5 ease;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+header .logo {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-style: 24px;
+    float: left;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    list-style: none;
+    position: relative;
+}
+
+header nav ul li .sub-menu:before {
+    content: '\f078';
+    font-family: fontAwesome;
+    position: absolute;
+    line-height: 50px;
+    color: #ffffff;
+    right: -1px;
+}
+
+header nav ul li.active .sub-menu:before {
+    content: '\f077';
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: #333333;
+    display: none;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 200px;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+} */
+
+
+/* header nav ul li a:hover, */
+
+
+/* header nav ul li a.active {
+    color: #ffffff;
+    background: #2196f3;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #ffffff;
+    background: #2196f3;
+    text-decoration: none;
+}
+
+.menu-toggle {
+    color: #ffffff;
+    float: right;
+    line-height: 50px;
+    font-style: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width:991px) {
+    header {
+        padding: 0 20px;
+    }
+    .menu-toggle {
+        display: block;
+    }
+    header nav {
+        position: absolute;
+        width: 50%;
+        height: Calc(100vh - 50px);
+        background: #333333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    header nav.active {
+        left: 0;
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+    }
+    header nav ul li.active ul {
+        position: relative;
+        background: #003e6f;
+    }
+    header nav ul li ul li {
+        width: 100%;
+    }
+} */
+
+header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 15px;
+    z-index: 100;
+}
+
+header.sticky {
+    position: fixed;
+    background-color: #222222;
+    animation: header .5 ease;
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+header .logo {
+    float: left;
+}
+
+header .logo a {
+    font-size: 30px;
+    display: inline-block;
+    padding: 5px 0px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+header .logo a span {
+    color: #f3971b;
+}
+
+header .navbar {
+    float: right;
+}
+
+header .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .navbar ul li {
+    display: inline;
+}
+
+header .navbar ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-style: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    position: relative;
+}
+
+header .navbar ul li a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    margin-top: -5px;
+    height: 2px;
+    left: 0;
+    background-color: #f3971b;
+    width: 0;
+    transition: width 500ms ease;
+}
+
+header .navbar ul li a:hover::before {
+    width: 100%;
+}
+
+header .navbar ul li a.active::before {
+    width: 100%;
+}
