@@ -2761,11 +2761,9 @@ TAB SECTION
     float: left;
     width: 100%;
     padding: 60px 0;
-    background-color: #f0f4f8;
-}
-
-.email form .field {
-    padding: 5px;
+    background-color: #92bde7;
+    color: #484e74;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .email .container .askOffer-content .card .box h3 {
@@ -2846,6 +2844,31 @@ TAB SECTION
 
 .email .container .askOffer-content .card .box .select-box .option:hover {
     background: #5d8fec;
+}
+
+.email .container .askOffer-content .card .box form {
+    background: #f0f4f8;
+}
+
+.email .container .askOffer-content .card .box form p {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.email .container .askOffer-content .card .box form label {
+    display: block;
+}
+
+.email .container .askOffer-content .card .box form button {
+    background: #c9e6ff;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.email .container .askOffer-content .card .box form button:hover,
+.email .container .askOffer-content .card .box form button:focus {
+    background: #92bde7;
 }
 
 .email .container .askOffer-content .card .box .select-box label {

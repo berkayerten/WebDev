@@ -3,6 +3,7 @@ const selectedAll = document.querySelectorAll(".selected");
 const name = document.getElementById("name");
 const password = document.getElementById("password");
 const errorElement = document.getElementById("error");
+
 const trafikform = document.getElementById("Etrafik-content-box");
 const saglikform = document.getElementById("Eosaglik-content-box");
 const daskform = document.getElementById("Edask-content-box");
